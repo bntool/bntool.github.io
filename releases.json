@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-10T06:35:19Z",
+  "release": {
+    "tag_name": "v0.2.0",
+    "name": "CrowKit v0.2.0",
+    "published_at": "2026-11-10T06:35:06Z",
+    "prerelease": false,
+    "draft": false,
+    "html_url": "https://github.com/bntool/CrowKit/releases/tag/v0.2.0"
+  },
+  "installer": {
+    "name": "CrowKit-Setup-0.2.0.exe",
+    "size": 25360405,
+    "browser_download_url": "https://github.com/bntool/CrowKit/releases/download/v0.2.0/CrowKit-Setup-0.2.0.exe"
+  }
+}

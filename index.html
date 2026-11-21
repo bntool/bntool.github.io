@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrowKit｜小鸦工具箱</title>
+  <meta name="description" content="CrowKit 是面向北师大校园学习场景的 Windows 11 桌面工具箱，安装包附带 Python 运行时和最新版插件。">
+  <meta name="theme-color" content="#4f46e5">
+  <meta property="og:title" content="CrowKit｜小鸦工具箱">
+  <meta property="og:description" content="安装即用的校园学习桌面工具，附带 小鸦刷课、校园网认证与教务抢课。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/crowkit.png">
+  <link rel="icon" type="image/svg+xml" href="./assets/crowkit.svg">
+  <link rel="alternate icon" type="image/x-icon" href="./assets/crowkit.ico">
+  <link rel="stylesheet" href="./styles.css?v=0.2.0">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="CrowKit 首页">
+        <img src="./assets/crowkit.svg" alt="" width="40" height="40">
+        <span>
+          <strong>CrowKit</strong>
+          <small>小鸦工具箱</small>
+        </span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="#features">功能</a>
+        <a href="#guide">使用方法</a>
+        <a href="#requirements">系统要求</a>
+        <a class="nav-download" data-download-link href="https://github.com/bntool/CrowKit/releases/download/v0.2.0/CrowKit-Setup-0.2.0.exe">下载</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Windows 11 · Microsoft Edge
+          </div>
+          <h1>让校园学习生活<br><span>更简单一点。</span></h1>
+          <p class="hero-lead">
+            集中管理课程学习、校园网认证与教务选课辅助任务。<br>
+            安装包已包含运行环境和最新版插件，下载后即可开始配置。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-download-link href="https://github.com/bntool/CrowKit/releases/download/v0.2.0/CrowKit-Setup-0.2.0.exe">
+              <span data-download-label>下载 0.2.0 正式版</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-secondary" href="https://github.com/bntool/CrowKit">查看源码</a>
+            <button class="button button-secondary" type="button" data-feedback-open="suggestion">功能建议</button>
+          </div>
+          <p class="hero-meta">
+            <span data-release-size>约 25 MB</span>
+            <span>含运行时与最新版插件</span>
+          </p>
+        </div>
+
+        <div class="product-visual" aria-hidden="true">
+          <div class="glow glow-one" aria-hidden="true"></div>
+          <div class="glow glow-two" aria-hidden="true"></div>
+          <div class="app-frame">
+            <div class="app-bar">
+              <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>CrowKit</span>
+              <span class="app-version">v<span data-release-version>0.2.0</span></span>
+            </div>
+            <div class="app-body">
+              <aside>
+                <img src="./assets/crowkit.svg" alt="" width="44" height="44">
+                <span class="side-item active">仪表盘</span>
+                <span class="side-item">插件管理</span>
+                <span class="side-item">账号管理</span>
+                <span class="side-item">全局设置</span>
+              </aside>
+              <div class="app-content">
+                <p class="mini-label">官方插件随安装包附带</p>
+                <div class="mini-card featured">
+                  <div>
+                    <span class="mini-icon">课</span>
+                    <strong>小鸦刷课</strong>
+                  </div>
+                  <small>课程详情、视频学习与互动任务</small>
+                  <div class="progress"><i></i></div>
+                </div>
+                <div class="mini-row">
+                  <div class="mini-card">
+                    <div>
+                      <span class="mini-icon green">网</span>
+                      <strong>校园网认证</strong>
+                    </div>
+                    <small>自动进行校园网认证</small>
+                  </div>
+                  <div class="mini-card">
+                    <div>
+                      <span class="mini-icon amber">选</span>
+                      <strong>教务抢课</strong>
+                    </div>
+                    <small>轮询课程剩余名额</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container trust-note">
+        <p>
+          CrowKit 是面向北京师范大学校园服务场景的开源工具，仅供测试使用<br>
+          与学校官方无关。使用前请遵守学校相关平台的使用规则。
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">核心功能</p>
+          <h2>一个入口管理常用校园任务</h2>
+          <p>账号、插件、运行进度和更新状态集中管理。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon indigo">课</span>
+            <h3>小鸦刷课</h3>
+            <p>统一管理师道云与 SPOC 课程，支持并行获取课程详情、章节筛选、并发学习和任务进度展示。</p>
+            <ul>
+              <li>按课程、任务或章节选择范围</li>
+              <li>服务器观看时长判定</li>
+              <li>师道云测试与互动辅助</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon teal">网</span>
+            <h3>校园网认证</h3>
+              <p>使用账号管理中配置的校园网密码自动完成认证。</p>
+            <ul>
+              <li>认证失败自动重试</li>
+              <li>每个插件可选择使用账号</li>
+              <li>支持用户级开机自启</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon orange">选</span>
+            <h3>教务抢课</h3>
+            <p>按培养层次、年级、院系和专业获取课程列表，持续轮询可选名额并自动提交。</p>
+            <ul>
+              <li>专业课程目录本地缓存</li>
+              <li>多课程、多班级候选</li>
+              <li>轮询可选名额并自动提交</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted">
+      <div class="container split-section">
+        <div>
+          <p class="kicker">为日常使用而设计</p>
+          <h2>使用CrowKit，让你只需要专注学习本身</h2>
+          <p class="section-copy">
+            CrowKit 使用独立的 Windows 桌面界面管理各插件。账号凭据与服务数据保存在当前用户目录，
+            安装包附带最新版插件，应用会检测 Edge 版本并维护匹配的驱动。
+          </p>
+          <div class="benefit-list">
+            <div><span>✓</span><p><strong>无需 Python 环境</strong><br>安装包已包含完整运行时。</p></div>
+            <div><span>✓</span><p><strong>浏览器驱动自动维护</strong><br>减少版本不匹配与手工配置。</p></div>
+            <div><span>✓</span><p><strong>插件开箱即用</strong><br>安装包附带最新版插件。</p></div>
+          </div>
+        </div>
+        <aside class="data-card">
+          <span class="data-label">本地数据目录</span>
+          <code>%LOCALAPPDATA%\CrowKit</code>
+          <p>用于保存配置、缓存与日志，不写入程序安装目录。</p>
+          <div class="data-rule"></div>
+          <span class="data-label">凭据保护</span>
+          <p>敏感凭据使用本地加密存储，并通过 Windows 文件权限限制访问。您的用户信息不会被泄露。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="guide">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">快速开始</p>
+          <h2>四步开始使用</h2>
+          <p>先添加账号，再选择插件和任务范围。</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-number">01</span>
+            <div>
+              <h3>下载并运行安装程序</h3>
+              <p>下载 Windows 安装包并完成安装，运行时和插件已随包提供。</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div>
+              <h3>添加账号</h3>
+              <p>在“账号管理”中添加统一身份认证账号；需要校园网认证时填写对应的校园网密码。</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div>
+              <h3>选择插件与任务</h3>
+              <p>打开目标插件，选择账号和任务范围。插件更新随主程序版本发布。</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">04</span>
+            <div>
+              <h3>启动任务并查看进度</h3>
+              <p>启动插件后，可在运行页查看任务流程、分线程进度和预计剩余时间。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="requirements">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">运行环境</p>
+          <h2>安装前请确认</h2>
+        </div>
+        <div class="requirement-grid">
+          <div class="requirement-card">
+            <span>操作系统</span>
+            <strong>Windows 11 x64</strong>
+            <p>应用针对 Windows 11 构建，并使用管理员权限写入 Program Files。</p>
+          </div>
+          <div class="requirement-card">
+            <span>浏览器</span>
+            <strong>Microsoft Edge</strong>
+            <p>需要已安装 Edge；驱动版本由应用自动检测和维护。</p>
+          </div>
+          <div class="requirement-card">
+            <span>网络</span>
+            <strong>可访问校园服务</strong>
+            <p>需要访问北师大相关平台。</p>
+          </div>
+          <div class="requirement-card">
+            <span>安装包</span>
+            <strong><span data-release-size>约 25 MB</span></strong>
+            <p>无需单独安装 Python，也无需手工下载 EdgeDriver。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container faq-layout">
+        <div>
+          <p class="kicker">常见问题</p>
+          <h2>安装与运行说明</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>Windows 显示“未知发布者”怎么办？</summary>
+            <p>当前测试版安装包尚未进行代码签名。确认安装包来自本页面或官方 Releases 后，可选择“更多信息”并继续安装。</p>
+          </details>
+          <details>
+            <summary>需要预先安装 Python 或 EdgeDriver 吗？</summary>
+            <p>不需要。安装包已包含 Python 运行时；EdgeDriver 会根据本机 Edge 版本自动获取。</p>
+          </details>
+          <details>
+            <summary>首次安装后还需要下载插件吗？</summary>
+            <p>不需要。安装包附带发布时的最新版插件，并会校验版本和文件完整性；后续随主程序更新。</p>
+          </details>
+          <details>
+            <summary>配置和缓存保存在哪里？</summary>
+            <p>统一保存在 <code>%LOCALAPPDATA%\CrowKit</code>。卸载应用时默认保留这些数据。</p>
+          </details>
+          <details>
+            <summary>是否适合直接用于关键任务？</summary>
+            <p>当前为 <span data-release-version>0.2.0</span> 正式版，建议先使用少量任务验证配置和运行结果。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section">
+      <div class="container download-card">
+        <img src="./assets/crowkit.svg" alt="" width="74" height="74">
+        <div>
+          <p class="kicker">开始使用</p>
+          <h2>下载 CrowKit <span data-release-version>0.2.0</span> <span data-release-channel>正式版</span></h2>
+          <p>Windows 11 x64 · 含最新版插件 · 自动维护 EdgeDriver</p>
+        </div>
+        <a class="button button-light" data-download-link href="https://github.com/bntool/CrowKit/releases/download/v0.2.0/CrowKit-Setup-0.2.0.exe">
+          立即下载
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="./assets/crowkit.svg" alt="" width="30" height="30">
+        <span>CrowKit</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/bntool/CrowKit">源代码</a>
+        <a href="https://github.com/bntool/CrowKit/releases">版本发布</a>
+        <button class="footer-link-button" type="button" data-feedback-open="problem">问题反馈</button>
+      </div>
+      <p>第三方校园学习工具，与学校官方无隶属关系。</p>
+    </div>
+  </footer>
+  <div class="feedback-modal" id="feedback-modal" hidden>
+    <div class="feedback-backdrop" data-feedback-close></div>
+    <section class="feedback-dialog" role="dialog" aria-modal="true" aria-labelledby="feedback-dialog-title">
+      <button class="feedback-close" type="button" aria-label="关闭" data-feedback-close>×</button>
+      <p class="kicker" id="feedback-kicker">功能建议</p>
+      <h2 id="feedback-dialog-title">告诉我们你的想法</h2>
+      <p class="feedback-intro" id="feedback-intro">请勿填写密码、学号等敏感信息。</p>
+      <form id="feedback-form">
+        <label for="feedback-title">标题</label>
+        <input id="feedback-title" name="title" type="text" maxlength="120" required
+          placeholder="用一句话概括建议或问题">
+        <label for="feedback-content">内容</label>
+        <textarea id="feedback-content" name="content" maxlength="3000" required
+          placeholder="请详细说明使用场景、期望效果或问题复现步骤"></textarea>
+        <p class="feedback-status" id="feedback-status" aria-live="polite"></p>
+        <div class="feedback-actions">
+          <button class="button button-secondary" type="button" data-feedback-close>取消</button>
+          <button class="button button-primary" id="feedback-submit" type="submit">提交反馈</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <p class="visually-hidden" id="release-status" aria-live="polite">正在检查最新版本。</p>
+  <script src="./release.js?v=0.2.0" defer></script>
+  <script src="./feedback.js?v=1" defer></script>
+</body>
+</html>
