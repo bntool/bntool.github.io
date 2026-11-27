@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:44:48Z",
+  "generated_at": "2026-11-27T14:59:53Z",
   "release": {
-    "tag_name": "v0.2.0",
-    "name": "CrowKit v0.2.0",
-    "published_at": "2026-11-21T08:44:17Z",
+    "tag_name": "v0.2.1",
+    "name": "CrowKit v0.2.1",
+    "published_at": "2026-11-27T14:59:21Z",
     "prerelease": false,
     "draft": false,
-    "html_url": "https://github.com/bntool/CrowKit/releases/tag/v0.2.0"
+    "html_url": "https://github.com/bntool/CrowKit/releases/tag/v0.2.1"
   },
   "installer": {
-    "name": "CrowKit-Setup-0.2.0.exe",
-    "size": 25059047,
-    "browser_download_url": "https://github.com/bntool/CrowKit/releases/download/v0.2.0/CrowKit-Setup-0.2.0.exe"
+    "name": "CrowKit-Setup-0.2.1.exe",
+    "size": 25073089,
+    "browser_download_url": "https://github.com/bntool/CrowKit/releases/download/v0.2.1/CrowKit-Setup-0.2.1.exe"
   }
 }

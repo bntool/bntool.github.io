@@ -7,7 +7,7 @@ CrowKit 的 GitHub Pages 静态介绍页。
 选择版本号最高且包含 `CrowKit-Setup-*.exe` 的非草稿版本，并在版本变化时
 自动提交新的清单。
 
-页面内置 0.2.0 下载地址作为清单暂时不可用时的回退。手动刷新清单可运行：
+页面内置 0.2.1 下载地址作为清单暂时不可用时的回退。手动刷新清单可运行：
 
 ```bash
 python scripts/update_release.py
